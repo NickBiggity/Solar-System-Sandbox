@@ -61,7 +61,7 @@ repeat(10) {
 
 var x_pos = room_width/2, y_pos = room_height/2;
 
-draw_text(x_pos, y_pos, "Hello World!");
+draw_text(x_pos, y_pos, "Hello Solar System!");
 </string>
           </argument>
         </arguments>
