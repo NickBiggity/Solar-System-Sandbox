@@ -8,10 +8,25 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_simEngine.gml</script>
+    <script>scripts\scr_pythag.gml</script>
+    <script>scripts\script2.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_test</object>
     <object>objects\simEngine</object>
   </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
+  <constants number="5">
+    <constant name="G">6.67408 * power(10, -11)</constant>
+    <constant name="MS">1.989 * power(10, 30)</constant>
+    <constant name="AU">1.495978707 * power(10, 11)</constant>
+    <constant name="DAY">86400</constant>
+    <constant name="YEAR">DAY * 365.25</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
